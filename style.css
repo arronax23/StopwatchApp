@@ -1,0 +1,27 @@
+.content {
+  max-width: 500px;
+  background: linear-gradient(45deg, red, blue, orange) no-repeat;
+  margin: 0 auto;
+  text-align: center;
+}
+
+i {
+  font-size: 34px;
+}
+
+#title {
+  display: inline-block;
+}
+
+#clock-font {
+  display: inline-block;
+}
+
+.spinners {
+  margin-top: 30px;
+  display: none;
+}
+
+.time {
+  font-size: 34px;
+}
