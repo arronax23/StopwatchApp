@@ -61,10 +61,14 @@ startBtn.addEventListener("click", function() {
 });
 
 stopBtn.addEventListener("click", function() {
-  spinners.style.display = "none";
-  stopwatch1.stop();
-  time.textContent = stopwatch1.result();
-  running = false;
+  if (running) {
+    spinners.style.display = "none";
+    stopwatch1.stop();
+    time.textContent = stopwatch1.result();
+    running = false;
+  } else {
+    time.textContent = "0s";
+  }
 });
 
 setInterval(function() {
