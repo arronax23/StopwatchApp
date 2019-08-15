@@ -73,4 +73,4 @@ stopBtn.addEventListener("click", function() {
 
 setInterval(function() {
   if (running) time.textContent = stopwatch1.resultLive();
-}, 100);
+}, 10);
